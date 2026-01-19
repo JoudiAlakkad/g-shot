@@ -10,14 +10,8 @@ type PropType = {
 
 const EmblaCarousel: React.FC<PropType> = (props) => {
   const { slides, options } = props
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()])
-  const SLIDES = [
-    '/src/assets/Jacob.jpg',
-    '/src/assets/Jacob (9).jpg',
-    '/src/assets/Jacob (8).jpg',
-    '/src/assets/Jacob (7).jpg',
-    '/src/assets/Jacob (6).jpg',
-  ]
+  const [emblaRef, _emblaApi] = useEmblaCarousel(options, [Autoplay()])
+
   return (
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>

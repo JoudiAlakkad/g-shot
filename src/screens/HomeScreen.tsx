@@ -5,11 +5,11 @@ import type { EmblaOptionsType } from 'embla-carousel'
 import EmblaCarouselVertical from '../emblaCarousel/EmblaCarouselVertical'
 import { Header } from './Header'
 const SLIDES = [
-  '/src/assets/Jacob.jpg',
-  '/src/assets/Jacob (9).jpg',
-  '/src/assets/Jacob (8).jpg',
-  '/src/assets/Jacob (7).jpg',
-  '/src/assets/Jacob (6).jpg',
+  '/assets/Jacob.jpg',
+  '/assets/Jacob (9).jpg',
+  '/assets/Jacob (8).jpg',
+  '/assets/Jacob (7).jpg',
+  '/assets/Jacob (6).jpg',
 ]
 
 const OPTIONS: EmblaOptionsType = { loop: true }
@@ -83,7 +83,7 @@ export const HomeScreen = () => {
           </div>
         </Header>
         <video
-          src="src/assets/backgroundVideo.mp4"
+          src="/backgroundVideo.mp4"
           className="absolute inset-0 w-full h-full object-cover z-10"
           autoPlay
           loop
@@ -212,55 +212,55 @@ export const HomeScreen = () => {
               <div className="group-right" ref={trackRef}>
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
 
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
               </div>
               <div className="group-right" ref={trackRef}>
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
 
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
               </div>
             </div>
@@ -270,55 +270,55 @@ export const HomeScreen = () => {
               <div className="group-left" ref={trackRef}>
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
 
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
               </div>
               <div className="group-left" ref={trackRef}>
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
 
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
               </div>
             </div>
@@ -326,55 +326,55 @@ export const HomeScreen = () => {
               <div className="group-right" ref={trackRef}>
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
 
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
               </div>
               <div className="group-right" ref={trackRef}>
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
 
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob.jpg"
+                  src="/assets/Jacob.jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (9).jpg"
+                  src="/assets/Jacob (9).jpg"
                 />
                 <img
                   className="w-[220px] h-[140px] object-cover mr-6 shrink-0"
-                  src="src/assets/Jacob (8).jpg"
+                  src="/assets/Jacob (8).jpg"
                 />
               </div>
             </div>

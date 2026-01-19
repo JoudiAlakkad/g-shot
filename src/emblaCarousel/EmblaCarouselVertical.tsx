@@ -10,7 +10,7 @@ type PropType = {
 
 const EmblaCarouselVertical: React.FC<PropType> = (props) => {
   const { slides, options } = props
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()])
+  const [emblaRef, _emblaApi] = useEmblaCarousel(options, [Autoplay()])
 
   return (
     <section className="emblaV">
